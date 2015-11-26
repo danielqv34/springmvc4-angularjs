@@ -4,7 +4,7 @@ import java.util.List;
 
 //resolver imports
 
-RestController
+@RestController
 public class UserRestController {
  
     @Autowired
