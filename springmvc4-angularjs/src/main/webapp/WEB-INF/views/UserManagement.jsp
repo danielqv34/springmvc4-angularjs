@@ -123,7 +123,9 @@
 		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
 	
 	<script src="js/app.js"></script>	
-		
+      <script src="js/service/user_service.js"></script>
+      <script src="js/controller/user_controller.js"></script>
+  </body>		
 </body>
 </html>
 
