@@ -1,6 +1,7 @@
 'use strict';
 
-App.controller('UserController', ['$scope', 'UserService', function($scope, UserService) {
+App.controller('UserController', ['$scope', 'UserService', 
+                                  function($scope, UserService) {
           var self = this;
           self.user={id:null,username:'',address:'',email:''};
           self.users=[];
@@ -8,8 +9,8 @@ App.controller('UserController', ['$scope', 'UserService', function($scope, User
           self.fetchAllUsers = function(){
               UserService.fetchAllUsers()
                   .then(
-      					       function(d) {
-      						        self.users = d;
+      					       function(data) {
+      						        self.users = data;
       					       },
             					function(errResponse){
             						console.error('Error while fetching Currencies');

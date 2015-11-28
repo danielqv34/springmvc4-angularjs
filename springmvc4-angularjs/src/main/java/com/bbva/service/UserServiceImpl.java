@@ -6,9 +6,8 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import com.websystique.springmvc.model.User;
+import com.bbva.modelo.User;
 
 @Service("userService")
 //@Transactional
